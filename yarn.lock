@@ -5830,8 +5830,10 @@ slide@^1.1.5:
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
 
-smpi-iop-react-native@./../smpi-iop-react-native:
+smpi-iop-react-native@^0.0.1:
   version "0.0.1"
+  resolved "https://registry.yarnpkg.com/smpi-iop-react-native/-/smpi-iop-react-native-0.0.1.tgz#4a0f70313f673a816f39fd67799da73f89bd2f35"
+  integrity sha512-rzb6JTVZw/Bp83z4hTRO1f5ZwswVuDESu4HVxyIELnE8BlUqHk6gzSFkBAUwGBjRGruQLeHF8eaotr7ogop1hw==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
