@@ -217,6 +217,8 @@ PODS:
     - React-cxxreact (= 0.61.4)
     - React-jsi (= 0.61.4)
     - ReactCommon/jscallinvoker (= 0.61.4)
+  - RNFS (2.16.2):
+    - React
   - smpi-iop-react-native (0.0.1):
     - React
   - Yoga (1.14.0)
@@ -249,6 +251,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNFS (from `../node_modules/react-native-fs`)
   - smpi-iop-react-native (from `../node_modules/smpi-iop-react-native`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -305,6 +308,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
   smpi-iop-react-native:
     :path: "../node_modules/smpi-iop-react-native"
   Yoga:
@@ -336,6 +341,7 @@ SPEC CHECKSUMS:
   React-RCTText: 21934e0a51d522abcd0a275407e80af45d6fd9ec
   React-RCTVibration: 0f76400ee3cec6edb9c125da49fed279340d145a
   ReactCommon: a6a294e7028ed67b926d29551aa9394fd989c24c
+  RNFS: 0d4191b1052bef9ce70deff00a5b4169c62bbd9b
   smpi-iop-react-native: 3fd7cf0ad34a86753118f672538c27d39c1fc726
   Yoga: ba3d99dbee6c15ea6bbe3783d1f0cb1ffb79af0f
 

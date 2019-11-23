@@ -260,6 +260,15 @@
     "@babel/helper-create-class-features-plugin" "^7.7.4"
     "@babel/helper-plugin-utils" "^7.0.0"
 
+"@babel/plugin-proposal-decorators@^7.6.0":
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.7.4.tgz#58c1e21d21ea12f9f5f0a757e46e687b94a7ab2b"
+  integrity sha512-GftcVDcLCwVdzKmwOBDjATd548+IE+mBo7ttgatqNDR7VG7GqIuZPtRWlMLHbhTXhcnFZiGER8iIYl1n/imtsg==
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-decorators" "^7.7.4"
+
 "@babel/plugin-proposal-export-default-from@^7.0.0":
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.7.4.tgz#890de3c0c475374638292df31f6582160b54d639"
@@ -304,6 +313,13 @@
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.7.4.tgz#6048c129ea908a432a1ff85f1dc794dc62ddaa5e"
   integrity sha512-JH3v5ZOeKT0qqdJ9BeBcZTFQiJOMax8RopSr1bH6ASkZKo2qWsvBML7W1mp89sszBRDBBRO8snqcByGdrMTdMg==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-syntax-decorators@^7.7.4":
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.7.4.tgz#3c91cfee2a111663ff3ac21b851140f5a52a4e0b"
+  integrity sha512-0oNLWNH4k5ZbBVfAwiTU53rKFWIeTh6ZlaWOXWJc4ywxs0tjz5fc3uZ6jKAnZSxN98eXVgg7bJIuzjX+3SXY+A==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
@@ -1477,6 +1493,11 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+
+base-64@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
+  integrity sha1-eAqZyE59YAJgNhURxId2E78k9rs=
 
 base64-js@^1.1.2, base64-js@^1.2.3:
   version "1.3.1"
@@ -4494,6 +4515,23 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+mobx-react-lite@^1.4.2:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-1.5.1.tgz#8eac90985b4d2bee475dd90a0d4d903be578f154"
+  integrity sha512-40Gn8hFq+MuNHqCaeSo2adN4WvpWkIeSYZVJWzRzm0rbEf0BFow6Ir9IefErql0pX9q650TN1JAQXvrXxKR8Mg==
+
+mobx-react@^6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/mobx-react/-/mobx-react-6.1.4.tgz#818e7991c321c05bd9b8156d94be17dad165501e"
+  integrity sha512-wzrJF1RflhyLh8ne4FJfMbG8ZgRFmZ62b4nbyhJzwQpAmrkSnSsAWG9mIff4ffV/Q7OU+uOYf7rXvSmiuUe4cw==
+  dependencies:
+    mobx-react-lite "^1.4.2"
+
+mobx@^5.14.2:
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-5.15.0.tgz#3ef34ac4965169698eff6df72f18c2a735e8e7f8"
+  integrity sha512-Ax7vE32zBRgO0A3Yu12RXaFwIhBzpGQXZjRHiDvKLrqpDEijhNTSuXJ1Ci+L30BSa/Mb3by9+3nuKq15YoH5dA==
+
 morgan@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.9.1.tgz#0a8d16734a1d9afbc824b99df87e738e58e2da59"
@@ -5227,6 +5265,14 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
+react-native-fs@^2.16.2:
+  version "2.16.2"
+  resolved "https://registry.yarnpkg.com/react-native-fs/-/react-native-fs-2.16.2.tgz#a312ce5f418e6d91d13b51e50ba0c49b1da1ec79"
+  integrity sha512-N9V8cMAOE49+er0/Qnf/xSFzsVWVWPW7Uggr11KVh18uv7FEPLEfLwEsL1Gv9vdkTgAK+6SYT46nqrhKtJClSw==
+  dependencies:
+    base-64 "^0.1.0"
+    utf8 "^3.0.0"
+
 react-native@0.61.4:
   version "0.61.4"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.61.4.tgz#9ec6e8a2aa8eac57143dcfa39115c7d9a139bc2c"
@@ -5889,6 +5935,14 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
+sqlite-mpi-client-js@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/sqlite-mpi-client-js/-/sqlite-mpi-client-js-0.0.3.tgz#d5c11dd89a3ef4c27d17810deb17765bbb94fb23"
+  integrity sha512-fQc68mJS51DWKwpK3RFrINB9WaXl1BLtaDd1ZPAcMthRf7BdGrR5aTV4TOsow7HXAaGCeNRUQnsLGfs/YgtNyQ==
+  dependencies:
+    lodash "^4.17.15"
+    uuid "^3.3.3"
+
 sshpk@^1.7.0:
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/sshpk/-/sshpk-1.16.1.tgz#fb661c0bef29b39db40769ee39fa70093d6f6877"
@@ -6366,6 +6420,11 @@ use@^3.1.0:
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
   integrity sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==
 
+utf8@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/utf8/-/utf8-3.0.0.tgz#f052eed1364d696e769ef058b183df88c87f69d1"
+  integrity sha512-E8VjFIQ/TyQgp+TZfS6l8yp/xWppSAHzidGiRrqe4bK4XP9pTRyKFgGJpO3SN7zdX4DeomTrwaseCHovfpFcqQ==
+
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -6384,7 +6443,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.3.2:
+uuid@^3.3.2, uuid@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
   integrity sha512-pW0No1RGHgzlpHJO1nsVrHKpOEIxkGg1xB+v0ZmdNH5OAeAwzAVrCnI2/6Mtx+Uys6iaylxa+D3g4j63IKKjSQ==
