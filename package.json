@@ -10,7 +10,7 @@
         "lint": "eslint ."
     },
     "dependencies": {
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.19",
         "mobx": "^5.14.2",
         "mobx-react": "^6.1.4",
         "react": "16.9.0",
